@@ -12,21 +12,55 @@
    "logo social contact"
    "copyright . developer";
 }
+
 .footer__logo {
    grid-area: logo;
 }
+
 .footer__social {
    grid-area: social;
    display: flex;
    gap: 24px;
    justify-self: end;
 }
+
 .footer__contact {
    grid-area: contact;
 }
+
 .footer__copyright {
    grid-area: copyright;
 }
+
 .footer__developer {
    grid-area: developer;
+}
+
+.footer__item {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #232020;
+}
+
+.footer__link {
+   text-decoration: none;
+   color: #232020;
+}
+
+.footer__link-text {
+   margin-left: 8px;
+}
+
+.footer__contact-link {
+   display: flex;
+   align-items: center;
+}
+
+.footer__contact-item:not(:last-child) {
+   margin-bottom: 16px;
+}
+
+.footer__developer-item:not(:last-child) {
+   margin-bottom: 8px;
 }
